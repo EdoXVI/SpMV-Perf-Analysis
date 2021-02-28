@@ -1,0 +1,7 @@
+/*
+!.gitignore
+!Makefile
+!script.py
+!bin/
+!data/test.mtx
+!src/
