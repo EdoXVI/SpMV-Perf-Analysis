@@ -139,6 +139,6 @@ int main(int argc, char *argv[]) {
     std::cout.precision(old_precision);*/
     int old_precision = std::cout.precision();
     std::cout.precision(5);
-    std::cout << meanTime / 1000.0 << " " << ((float)nnz)/meanTime << std::endl;
+    std::cout << nnz << " " << ((float)nnz)/meanTime << std::endl;
     std::cout.precision(old_precision);
 }
